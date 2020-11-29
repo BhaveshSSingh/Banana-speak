@@ -1,12 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 :root {
-  --primary-color: #fcd34d;
+  --primary-color: #f5e050;
   --off-white: #e5e7eb;
-  --dark-gray: #1f2937;
+  --dark-gray: #231f20;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+}
+#header {
+  border-bottom-left-radius: 1rem;
+
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  color: black;
+  background-color: var(--primary-color);
+  margin: 0;
 }
 
 textarea {
@@ -24,6 +34,12 @@ textarea {
 .placeholder {
   font-family: "Poppins", sans-serif;
   color: var(--dark-gray);
+}
+
+img {
+  max-width: 150px;
+  display: block;
+  margin: auto;
 }
 #output {
   border: 1px solid black;
@@ -55,19 +71,10 @@ button {
 
 .container-center {
   padding: 0rem 1rem;
-
   max-width: 800px;
   margin: auto;
 }
 
-#header {
-  text-align: center;
-  font-size: 2rem;
-  padding: 1rem;
-  color: black;
-  background-color: var(--primary-color);
-  margin: 0;
-}
 footer {
   background-color: var(--primary-color);
   padding: 2rem 0rem;
