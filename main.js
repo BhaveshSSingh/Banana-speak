@@ -9,7 +9,7 @@ function getTranslationURL(text) {
 }
 
 function errorHandler(error) {
-  return serverURL + "?" + "text=" + text;
+  alert("error occurred", error);
 }
 
 function clickHandler() {
